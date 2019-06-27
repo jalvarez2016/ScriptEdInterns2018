@@ -1,19 +1,24 @@
 body {
-    font-family: "Roboto Slab","Helvetica","Arial","sans-serif"
+    font-family: "Helvetica","Arial","sans-serif";
 }
 
+
 .navbar {
-	background-color: #FFF;
+    background-color: #FFF;
     border-color: #FFF;
 }
 
 .nav-link {
-   color:grey; 
+   color:grey;
 }
 
 
 .navbar-brand {
-    color: #EF5330;
+    color: #000000;
+}
+
+.brand-image {
+    height: 1em;
 }
 
 .navbar-collapse {
@@ -30,36 +35,37 @@ a:hover {
 }
 
 .jumbotron {
-    padding-top: 150px; 
+    padding-top: 150px;
 	height: 500px;
-	background-image: url(https://www.scripted.org/wp-content/uploads/2014/08/se_141-1650x723.jpg)
+	background-image: url(https://codenation.org/wp-content/uploads/2018/09/hero-home.png)
 }
 
-.jumbotron h1{
-	color: #FFFFFF;
-}
 .jumbotron {
-	color: #FFFFFF;
+	color: black;
 	margin: 0;
 }
 
+.jumbotron p {
+    font-size: 1.25em;
+}
+
 .btn-primary {
-	background-color:#EF5330;
-    border-color: #EF5330;
+	background-color: #0080ff;
+    border-color: #0080ff;
 }
 
 .btn-primary:hover {
 	background-color:lightgray;
     border-color: lightgray;
 }
+.btn-light{
+	background-color:black;
+    border-color: black;
+}
+
 
 #interns{
     padding: 50px;
-}
-
-.section-heading {
-    color: #15C2D2;
-    font-family: "proxima-nova","Helvetica","Arial", "sans-serif";
 }
 
 .intern {
@@ -69,18 +75,22 @@ a:hover {
 }
 
 .intern img {
-    height: 175px;
-    width: 175px;
+    height: 125px;
+    width: 125px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .profile {
     margin-top:50px;
     padding:50px;
+    background-color: lightblue;
 }
 
 .profile-img {
     height: 300px;
     width: 300px;
+    margin-bottom: 15px;
 }
 
 .profile-icon {
@@ -90,34 +100,35 @@ a:hover {
 }
 
 .profile-icon:hover {
-    color: LightGray;
+    color: grey;
     text-decoration: none;
 }
 
 .info {
     padding:50px;
+/*     background-color: #00FF80; */
 }
 
 
 .footer {
-    background-color: #EF5330;
-    border-color: #EF5330;
+    background-color: white;
+    border-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #FFF;
+    color: grey;
 }
 
 .footer-icon {
-    color: #FFF;
-    font-size: 2em;
+    color: black;
+    font-size: 1em;
     text-decoration: none;
 }
 
 .footer-text {
-    color: #FFF;
+    color: black;
 }
 
 .footer-logo {
-    height: 1em;
+    height: 2em;
     margin-bottom: 5px;
 }
